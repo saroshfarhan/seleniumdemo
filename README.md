@@ -1,6 +1,6 @@
-#Selenium Framework learning from scratch
+# Selenium Framework learning from scratch
 
-##Things learned
+## Things learned
 
 - Synchronizations / Waits
 - Actions Class
