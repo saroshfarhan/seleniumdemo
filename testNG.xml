@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name='Suite'>
+	<groups>
+	  <run>
+	  	<include name='' />
+	  </run>
+	</groups>
+	<test name='Test'>
+		<classes>
+			<class name=''>
+				<methods>
+				 <include name=''></include>
+				 <exclude name=''></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
