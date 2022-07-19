@@ -13,3 +13,4 @@
 - Taking screenshots
 - Soft assert with broken links check
 - Java streams
+- Selenium 4.0 features
