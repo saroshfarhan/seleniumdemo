@@ -1,5 +1,7 @@
  package com.test.selenium;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +31,8 @@ public class StaticDropdown {
         dropdown.selectByValue("INR");
         System.out.println(dropdown.getFirstSelectedOption().getText());
         
+        List<WebElement> options = dropdown.getOptions();   
+        System.out.println(options.size());
 	}
 
 }
